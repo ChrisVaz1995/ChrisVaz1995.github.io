@@ -62,15 +62,15 @@ li {
   }
 
   .profile-image:hover {
-    transform: scale(1.2) rotate(355deg);
+    transform: scale(1.2) rotate(360deg);
   }
 
   .inline-block:hover {
-    transform: scale(1.2) rotate(355deg);
+    transform: scale(1.2) rotate(360deg);
     transition: all .5s;
 }
 
 .links:hover {
-    transform: scale(1.2) rotate(355deg);
+    transform: scale(1.2) rotate(360deg);
     transition: all .5s;
 }
