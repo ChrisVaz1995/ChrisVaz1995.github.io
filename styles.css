@@ -16,8 +16,16 @@ li {
     margin: 25px;
 }
 
-.background-body {
+
+/* .background-body {
     background: linear-gradient(to right #1F2833, #0B0C10)
+} */
+
+.circles {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;    
 }
 
 .bio {
