@@ -6,7 +6,8 @@
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #191919;
+    /* background-color: #191919; */
+    background: linear-gradient(to right, #0B0C10, #1F2833)
 }
 
 li {
@@ -15,6 +16,9 @@ li {
     margin: 25px;
 }
 
+.background-body {
+    background: linear-gradient(to right #1F2833, #0B0C10)
+}
 
 .bio {
     text-align: center; 
@@ -24,9 +28,9 @@ li {
 
 .main-header {
     text-align: center;
-    background-color: #696969;
+    background: linear-gradient(to left, #1F2833, #1F2833 50%, #0B0C10 75%, #0B0C10 75%);
     padding: 30px;
-    text-shadow: darkgreen 1px 0 10px;
+    text-shadow: #45a29e 1px 0 10px;
 }
 
 .second-header, .third-header {
@@ -34,15 +38,6 @@ li {
     margin: 20px;
     color: silver;
 }
-/* 
-.main-banner {
-    background-image: url("img/coding.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 50%;
-} */
 
 .banner {
     text-align: center;
@@ -56,7 +51,7 @@ li {
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #111; 
+    background-color: #1F2833; 
     overflow-x: hidden; 
     padding-top: 20px;
   }
